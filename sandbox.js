@@ -22,4 +22,9 @@ console.log(age,year);
  console.log(fullName.toUpperCase())
 
  let index = email.indexOf('@')
- console.log(index)
+ console.log(index);
+
+ console.log(email.lastIndexOf('m'));
+
+ let relay = email.replace('m','l');
+ console.log(relay);
