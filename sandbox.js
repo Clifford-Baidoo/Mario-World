@@ -28,3 +28,31 @@ console.log(age,year);
 
  let relay = email.replace('m','l');
  console.log(relay);
+
+ const Name = "Charles";
+ const Age = 54;
+ const Year = 2019;
+
+ console.log(`his name is ${Name} and he is ${Age} old  and got an award in ${Year}`);
+ 
+
+ let soldiers = ['Jason','Todd','Matt','Boon'];
+ console.log(soldiers)
+
+ //Array Methods
+ let training = soldiers.join('-');
+ console.log(training);
+
+ let squadB = soldiers.concat(['James','Wario']);
+ console.log(squadB);
+
+ let squadC = squadB.push('Tanor');
+ console.log(squadB)
+  squadC = squadB.pop();
+  console.log(squadB)
+
+  let marks = '100';
+  marks = Number(marks);
+  console.log(marks + 1);
+
+
