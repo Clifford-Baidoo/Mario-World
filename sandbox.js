@@ -55,4 +55,14 @@ console.log(age,year);
   marks = Number(marks);
   console.log(marks + 1);
 
+for(i=0;i<5;i++){
+    console.log('in loop:',i);
+}
+
+console.log('loop finished')
+
+let names = ['Banor','Bruce','Mason'];
+for(a=0;a<names.length;a++){
+    console.log(names[a]);
+}
 
